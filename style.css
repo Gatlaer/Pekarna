@@ -1,0 +1,56 @@
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-image: url("../photo_2022-06-05_13-14-26_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.banner-title {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.shop-btn {
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #B47B48;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
