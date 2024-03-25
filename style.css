@@ -37,11 +37,15 @@
 
 .banner-text {
     color: #FFFFFF;
+    width: 570.25px;
+    height: 200px;
+    margin-top: 22px;
     font-weight: 300;
     font-size: 21px;
 }
 
 .shop-btn {
+    margin-top: 33px;
     display: inline-block;
     padding: 20px 30px;
     border-radius: 10px;
@@ -54,3 +58,78 @@
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px;
+}
+
+.product-image-4 {
+    width: 50%;
+}
+
+.product-price {
+    color: #FFFFFF;
+}
+
+.product-info {
+    text-align: center;
+    width: 50%;
+}
+
+.product { 
+    background-color: #272727;
+    transition: background-color 0.5s ease;
+    display: flex;
+    align-items: center;
+    width: 310px;
+}
+
+.buy-btn {
+  background-color: #C85312;
+  margin-top: 33px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;  
+}
+
+.menu-section {
+    background-image: url(/img/Rectangle\ 25.png)
+}
+
+.section-title {
+    text-align: center;
+    color: white;
+   
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    justify-content: space-between;
+}
+
+.menu-item {
+    width: 330px;
+}
+
+.menu-item-img {
+    border: 1px solid #FFFFFF;
+
+}
+
+.product-image-10 {
+   width: 100%; 
+}
+
+
+
+
+
+    
