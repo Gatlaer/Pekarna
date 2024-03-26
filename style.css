@@ -99,7 +99,7 @@
 }
 
 .menu-section {
-    background-image: url(./img/Rectangle\ 25.png)
+    background-image: url(./img/Rectangle\ 25.png);
 }
 
 .section-title {
@@ -126,6 +126,50 @@
 
 .product-image-10 {
    width: 100%; 
+}
+
+
+.quality-section {
+     background-image: linear-gradient(to right
+     rgba(0,0,0,1) 5%
+     rgba(255,255,255,0)),url(./img/Group\ 51.png);
+     background-color: #202023;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.order-btn {
+    background-color: #B47B48;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.why-section {
+    background-image: url(./img/photo_2024-03-25_16-04-38\ —\ копия.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.where-section {
+    background-image: url(./img/Rectangle\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+.footer {
+    background-image: url(./img/Rectangle\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
