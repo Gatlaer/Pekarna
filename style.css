@@ -48,12 +48,15 @@
 }
 
 .shop-btn {
+    width: 207px;
+    height: 57px;
     margin-top: 33px;
     display: inline-block;
     padding: 20px 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #B47B48;
     color: white;
+    line-height: 0.7;
     text-align: center;
     text-decoration: none;
     border: none;
@@ -79,12 +82,21 @@
 }
 
 .product-price {
+    font-weight: 90;
+    font-size: 24px;
     color: #FFFFFF;
 }
 
 .product-info {
     text-align: center;
     width: 50%;
+}
+
+.product-name {
+  margin-top: 13px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .product {
@@ -96,6 +108,8 @@
 }
 
 .buy-btn {
+    width: 79px;
+    height: 34px;
     background-color: #C85312;
     margin-top: 33px;
     color: white;
@@ -170,14 +184,19 @@
 }
 
 .quality-section {
-    height: 600px;
-    padding: 50px 0;
+    height: 700px;
+    padding: 100px 0 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/Group\ 51.png);
     background-color: #202023;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
+
+.quality-section .container {
+  height: 100%;
+}
+
+
 
 .custom-title {
     font-family: "Italiana";
@@ -191,6 +210,7 @@
 
 
 .quality-list {
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -201,13 +221,13 @@
 
 }
 
-.quality-item .one {
+.quality-list .one {
     align-self: start;
     width: 300px;
 
 }
 
-.quality-item .two {
+.quality-list .two {
     align-self: center;
     width: 300px;
 
@@ -220,8 +240,11 @@
 }
 
 .custom-list {
+    
     background-color: #717171;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    width: 197.53px;
     color: white;
     padding: 20px;
 }
@@ -231,17 +254,20 @@
 }
 
 .section-title {
+    width: 600px;
+    color: #FFFFFF;
     font-family: "Italiana";
     text-align: left;
-    padding: 55px;
     font-weight: 400;
     font-size: 48px;
+    padding-top: 55px;
 }
 
 .reason{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 132px;
 }
 
 .reason-description {
@@ -274,7 +300,35 @@
 }
 
 .contact-info {
-   
+   font-family: "Inter";
+   display: flex;
+   flex-direction: column;
+   color: #FFFFFF
+}
+
+.contact-info-title {
+    padding-bottom: 49px;
+   font-weight: 400;
+   font-size: 40px;
+}
+
+.contact-detail {
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+ 
+.location-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-when {
+    padding-bottom: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
 }
 
 .where-section {
@@ -290,3 +344,52 @@
     background-size: cover;
     background-position: center;
 }
+
+.footer-info {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-column {
+  padding-top: 50px;
+}
+
+.footer-name {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.footer-texxt {
+    padding: 16px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.footer-link {
+    font-weight: 300;
+    font-size: 24px;
+    
+}
+
+.footer-title {
+    font-weight: 300;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
+.footer-text {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    opacity: 0.5;
+    padding: 44px;
+}
+
+
