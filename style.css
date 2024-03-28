@@ -19,6 +19,7 @@
 
 .menu {
     display: flex;
+    list-style: none;
 }
 
 
@@ -99,15 +100,24 @@
   font-size: 16px;
 }
 
+.product:hover {
+    background: linear-gradient(to right,
+    rgb(72, 53, 25) 15%, #84602a);
+}
+
+
 .product {
-    background-color: #272727;
+    background-color: #272727;  
     transition: background-color 0.5s ease;
+    position: relative;
     display: flex;
     align-items: center;
     width: 310px;
 }
 
 .buy-btn {
+    background: linear-gradient (to bottom right,
+    #ff8a5a, #b47b48 79%);
     width: 79px;
     height: 34px;
     background-color: #C85312;
@@ -261,13 +271,13 @@
     font-weight: 400;
     font-size: 48px;
     padding-top: 55px;
+    padding-bottom: 40px;
 }
 
 .reason{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 132px;
 }
 
 .reason-description {
@@ -292,7 +302,6 @@
 
 
 .why-section {
-    height: 600px;
     background-image: linear-gradient(to right, #000000, #03030300), url(./img/photo_2024-03-25_16-04-38\ —\ копия.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,11 +364,14 @@
 
 .footer-column {
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-name {
     font-weight: 200;
     font-size: 40px;
+    width: 400px;
 }
 
 .footer-texxt {
@@ -378,7 +390,7 @@
     font-weight: 300;
     font-size: 24px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
    
 }
 
